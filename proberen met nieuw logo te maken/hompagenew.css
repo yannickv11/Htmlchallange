@@ -1,0 +1,17 @@
+@media all and (max-device-width: 550px){
+
+    img#logo {
+        filter: invert(100%);
+        display: block;
+        margin: auto;
+    }
+    #logolinks,a{
+        color: white;
+        background-color: black;
+    }
+
+}
+
+nav {
+    text-align: center;
+}

@@ -1,0 +1,36 @@
+@media all and (max-device-width: 550px){
+.container {
+    grid-template-areas:
+"logo"
+"header"
+"tabel"
+"plaatjes";
+}
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+"logo"
+"header"
+"tabel"
+"plaatjes";
+}
+
+.logo {
+    grid-area: logo;
+}
+.header {
+    grid-area: header;
+    font-family: 'Oswald:300', sans-serif;
+
+}
+
+.tabel {
+    grid-area: tabel;
+}
+
+.plaatjes {
+    grid-area: plaatjes;
+}
+
